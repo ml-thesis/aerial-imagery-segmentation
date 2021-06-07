@@ -33,6 +33,10 @@ This is for use with the models/research/deeplab Tensorflow implementation
 3. conda install -c conda-forge pillow tqdm numpy
 4. pip install tf\_slim
 5. From tensorflow/models/research/ directory run: export PYTHONPATH=\$PYTHONPATH:\`pwd\`:\`pwd\`/slim
+
+## Original data
+Can be found here: https://github.com/dronedeploy/dd-ml-segmentation-benchmark/blob/master/libs/datasets.py
+
 ## List of altered files for DroneDeploy dataset experiments
 ### DeepLabv3+ Tensorflow research codebase https://github.com/tensorflow/models/tree/master/research/deeplab extensions
 - convert\_rgb\_to\_index.py (altered to strip 3 dimensional segmentation labels to 1 dimensional)
